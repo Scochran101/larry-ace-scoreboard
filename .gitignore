@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.vercel/
+
+# Environment variables — NEVER commit these. They hold your Google keys.
+.env
+.env.local
+.env.*.local
+
+# Google service account key file — must NEVER enter the repo.
+# Keep the downloaded JSON key OUTSIDE this project folder.
+*.json.key
+service-account*.json
+google-credentials*.json
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
